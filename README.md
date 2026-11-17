@@ -5,15 +5,13 @@
 # shadow-dr1ft (v2.0.0 Pro)
 
 **Created by:** `r!shu [ 0b1toUch!h4 ]`  
-**Domain:** Web Application Penetration Testing (WAPT) | Bug Bounty Recon | API Security
-
-![Python](https://shields.io)
-![Platform](https://shields.io)
-![License: MIT](https://shields.io)
+**Domain:** Web Application Penetration Testing (WAPT) | Bug Bounty Recon | API Security  
+**Environment:** `Python 3.9+` • `Kali Linux` • `MIT License`
 
 *A high-speed, asynchronous CLI reconnaissance and differential analysis tool designed to uncover **Shadow APIs**, **Zombie Endpoints**, **Hidden Parameters**, and **HTTP Method Drift** from live frontend JavaScript and Webpack chunks.*
 
 </div>
+
 
 ---
 
