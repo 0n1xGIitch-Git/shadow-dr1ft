@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shadow-dr1ft"
+version = "2.0.0"
+description = "Shadow-API, Zombie Endpoint & OpenAPI Spec Drift Detector for Bug Bounty & WAPT"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "r!shu [ 0b1toUch!h4 ]" }
+]
+dependencies = [
+    "typer>=0.9.0",
+    "rich>=13.0.0",
+    "httpx>=0.25.0",
+    "pyyaml>=6.0.0"
+]
+
+[project.scripts]
+shadow-dr1ft = "shadow_dr1ft.cli:app"
